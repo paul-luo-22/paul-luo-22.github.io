@@ -1,3 +1,6 @@
+body {
+}
+
 .name {
   display: inline-block;
   color: aliceblue;
@@ -15,6 +18,7 @@
   align-items: center;
   background-color: blueviolet;
   flex-wrap: wrap;
+  border-radius: 7px;
 }
 
 .nav {
@@ -24,8 +28,21 @@
 .greeting {
   text-align: center;
   padding: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.blog-description {
-  text-align: center;
+.description-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+  border-radius: 7px;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  padding: 3em;
+}
+
+.description-contents {
+  text-align: left;
+  color: aliceblue;
+  font-family: 'Open Sans', sans-serif;
 }
