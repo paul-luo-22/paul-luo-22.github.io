@@ -6,11 +6,11 @@ body {
 .name {
   display: inline-block;
   color: aliceblue;
-  height: 50px;
+  height: 3em;
   width: auto;
   padding: 10px;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  margin-bottom: 2em;
+  margin-left: 2em;
 }
 
 .site-header__wrapper {
@@ -39,6 +39,7 @@ button {
 
 .homebtn:hover {
   background-color: pink;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -51,6 +52,7 @@ button {
   position: absolute;
   min-width: 10em;
   background-color: pink;
+  border-radius: 3px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -59,6 +61,7 @@ button {
 
 .dropdown:hover .dropbtn {
   background-color: pink;
+  cursor: pointer;
 }
 
 .dropdown-content a {
