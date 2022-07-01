@@ -24,16 +24,46 @@ body {
 .nav {
   padding: 10px;
   margin-bottom: 5px;
-  margin-right: 30px;
+  margin-right: 10%;
 }
 
 button {
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
   border: 3px solid violet;
   color: aliceblue;
   background-color: black;
   border-radius: 4px;
+}
+
+.homebtn:hover {
+  background-color: pink;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 10em;
+  background-color: pink;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: pink;
+}
+
+.dropdown-content a {
+  color: aliceblue;
+  padding: 10px 10px;
+  display: block;
 }
 
 .greeting {
@@ -46,12 +76,13 @@ button {
   flex-wrap: wrap;
   background-color: blueviolet;
   border-radius: 7px;
-  margin-left: 37.5%;
-  margin-right: 37.5%;
+  margin-left: 15%;
+  margin-right: 15%;
   padding: 3em;
 }
 
 .description-contents {
   text-align: left;
   color: aliceblue;
+  margin-inline: auto;
 }
