@@ -1,23 +1,27 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: aliceblue;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  background: rgb(24,24,24);
+  background: linear-gradient(180deg, rgba(24,24,24,1) 10%, rgba(134,133,239,1) 70%, rgba(250,248,255,1) 100%); 
 }
 
 .name {
   display: inline-block;
-  color: aliceblue;
+  color: #faf8ff;
   height: 3em;
   width: auto;
   padding: 10px;
   margin-bottom: 2em;
   margin-left: 2em;
+  font-style: italic;
+  font-family: Garamond,'Courier New', Courier, monospace;
 }
 
 .site-header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blueviolet;
+  background: rgb(24,24,24);
+  background: linear-gradient(90deg, rgba(24,24,24,1) 20%, rgba(134,133,239,1) 90%, rgba(250,248,255,1) 100%); 
   flex-wrap: wrap;
   border-radius: 7px;
 }
@@ -29,16 +33,19 @@ body {
 }
 
 button {
-  padding: 10px;
-  margin: 20px;
-  border: 3px solid violet;
-  color: aliceblue;
-  background-color: black;
+  font-size: 12px;
+  padding: 1em;
+  margin: 1.5em;
+  border: 3px solid #ddebeb;
+  color: #faf8ff;
+  background-color: #8685ef;
   border-radius: 4px;
+  width: 6em;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .homebtn:hover {
-  background-color: pink;
+  background-color: #6260ec;
   cursor: pointer;
 }
 
@@ -51,7 +58,7 @@ button {
   display: none;
   position: absolute;
   min-width: 10em;
-  background-color: pink;
+  background-color: #6260ec;
   border-radius: 3px;
 }
 
@@ -60,12 +67,12 @@ button {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: pink;
+  background-color: #6260ec;
   cursor: pointer;
 }
 
 .dropdown-content a {
-  color: aliceblue;
+  color: #faf8ff;
   padding: 10px 10px;
   display: block;
 }
@@ -73,12 +80,13 @@ button {
 .greeting {
   text-align: center;
   padding: 20px;
+  color: #8685ef;
 }
 
 .description-flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: blueviolet;
+  background-color: #2d2b39;
   border-radius: 7px;
   margin-left: 15%;
   margin-right: 15%;
@@ -87,6 +95,6 @@ button {
 
 .description-contents {
   text-align: left;
-  color: aliceblue;
+  color: #faf8ff;
   margin-inline: auto;
 }
