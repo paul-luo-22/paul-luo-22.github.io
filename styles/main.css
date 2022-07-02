@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace, sans-serif;
   background: rgb(24,24,24);
-  background: linear-gradient(180deg, rgba(24,24,24,1) 10%, rgba(134,133,239,1) 70%, rgba(250,248,255,1) 100%); 
+  background: linear-gradient(180deg, rgba(24,24,24,1) 20%, rgba(134,133,239,1) 70%, rgba(250,248,255,1) 95%);
 }
 
 .name {
@@ -97,4 +97,14 @@ button {
   text-align: left;
   color: #faf8ff;
   margin-inline: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d2b39;
+  color: #faf8ff;
+  text-align: center;
 }
