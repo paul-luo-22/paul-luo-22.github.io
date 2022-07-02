@@ -83,6 +83,10 @@ button {
   color: #8685ef;
 }
 
+#myExclamation {
+  color:#faf8ff;
+}
+
 .description-flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -107,4 +111,33 @@ button {
   background-color: #2d2b39;
   color: #faf8ff;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    padding: 1em;
+    margin: 1em;
+    width: auto;
+  }
+
+  .description-flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  button {
+    font-size: 10px;
+    padding: 1em;
+    margin: 0.5em;
+    width: auto;
+  }
+
+  .description-flex-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1em;
+  }
 }
