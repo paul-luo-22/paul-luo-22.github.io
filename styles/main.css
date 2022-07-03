@@ -4,8 +4,7 @@ html {
 
 body {
   font-family: 'Courier New', Courier, monospace, sans-serif;
-  background: rgb(24,24,24);
-  background: linear-gradient(180deg, #181818 20%, #8685ef 70%, #faf8ff 95%);
+  background: #181818;
   min-height: 100%;
 }
 
@@ -99,6 +98,7 @@ button {
   border-radius: 7px;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 10%;
   padding: 3em;
 }
 
@@ -132,6 +132,19 @@ button {
   }
 }
 
+.examples-output {
+  padding: 1em;
+  border: 1px solid #8685ef;
+}
+
+#first-paragraph {
+  background-color: #8685ef;
+}
+
+.example-paragraph {
+  background-color: #8685ef;
+}
+
 @media only screen and (max-width: 375px) {
   button {
     font-size: 10px;
@@ -144,5 +157,6 @@ button {
     margin-left: 5%;
     margin-right: 5%;
     padding: 1em;
+    max-width: 335px;
   }
 }

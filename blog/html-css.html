@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Margin, Border and Padding</title>
+    <title>Class & ID</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -23,21 +23,55 @@
         <div class="dropdown">
           <button class="dropbtn">Tech▼</button>
             <div class="dropdown-content">
-              <a href="html-css.html">Sprint 2 - Margin, Border and Padding</a>
+              <a href="html-css.html">Sprint 2 - Class & ID</a>
             </div>
         </div>  
       </nav>
     </header>
     <div class="greeting">
-      <h2><em>Margin, Border and Padding</em></h2>
+      <h2><em>Class & ID</em></h2>
     </div>
     <div class="description-flex-container">
       <div class="description-contents">
-        <p>CONTENT</p>
+        <p>Classes and IDs are selectors we can use to choose elements on an HTML page to manipulate. While classes are not unique and can be used for multiple
+          elements an ID selector can only be used for a single element that appears a single time on the HTML page. Let's take a look at an example of selectors in use:
+        </p>
+        <img src="../images/paragraph-example.JPG" alt="Paragraph Example" class="paragraph-example-image">
+        <p>The output for the above is given in the box below</p>
+        <div class="examples-output">
+          <p>This is the first paragraph</p>
+          <p>This is the second paragraph</p>
+        </div>
+        <p>Given that both tags are the same if we were to apply a background color to the first paragraph we must have a way of differentiating between the two. We can
+        give the first paragraph a class or id to differentiate the first from the second. Given that we are only changing one element we can use an ID.
+        </p>
+        <div>
+        <img src="../images/paragraph-example-2-html.JPG" alt="Paragraph Example 2 HTML" class="paragraph-example-image">
+        <img src="../images/paragraph-example-2-css.JPG" alt="Paragraph Example 2 CSS" class="paragraph-example-image">
+        </div>
+        <p>Note that in the HTML we declare our id "first-paragraph" and in the CSS we reference it with #first-paragraph. 
+          Once again let's take a look at the output below.</p>
+        <div class="examples-output">
+          <p id="first-paragraph">This is the first paragraph</p>
+          <p>This is the second paragraph</p>
+        </div>
+        <p>Classes however are used when we want to apply that change to multiple elements which in this case is both paragraphs. Note that there is a change in syntax.</p>
       </div>
+      <div>
+        <img src="../images/paragraph-example-3-html.JPG" alt="Paragraph Example 3 HTML" class="paragraph-example-image">
+        <img src="../images/paragraph-example-3-css.JPG" alt="Paragraph Example 3 CSS" class="paragraph-example-image">
+      </div>
+        <p>Here we use declare the class of both elements to be "example-paragraph" in the HTML and in the CSS we reference it with .example-paragraph instead of using #. 
+          Once again we can see the final output below.
+        </p>
+        <div class="examples-output">
+          <p class="example-paragraph">This is the first paragraph</p>
+          <p class="example-paragraph">This is the second paragraph</p>
+        </div>
     </div>
     <div class="footer">
       <p>This is a footer</p>
     </div>
   </body>
-</html>
+
+  
