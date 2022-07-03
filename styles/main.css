@@ -108,20 +108,6 @@ button {
   margin-inline: auto;
 }
 
-@media only screen and (max-width: 768px) {
-  button {
-    padding: 1em;
-    margin: 1em;
-    width: auto;
-  }
-
-  .description-flex-container {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2em;
-  }
-}
-
 .examples-output {
   padding: 1em;
   border: 1px solid #8685ef;
@@ -143,6 +129,20 @@ button {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  button {
+    padding: 1em;
+    margin: 1em;
+    width: auto;
+  }
+
+  .description-flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   button {
     font-size: 10px;
@@ -155,6 +155,13 @@ button {
     margin-left: 5%;
     margin-right: 5%;
     padding: 1em;
-    max-width: 335px;
+  }
+
+  .description-contents {
+    max-width: 90%;
+  }
+
+  .paragraph-example-image {
+    max-width: 100%;
   }
 }
