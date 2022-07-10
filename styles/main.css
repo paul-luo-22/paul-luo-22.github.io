@@ -27,7 +27,7 @@ body {
   background: rgb(24,24,24);
   background: linear-gradient(90deg, #181818 20%, #8685ef 90%, #faf8ff 100%); 
   flex-wrap: wrap;
-  border-radius: 7px;
+  border-radius: 30px;
 }
 
 .nav {
@@ -43,7 +43,7 @@ button {
   border: 3px solid #ddebeb;
   color: #faf8ff;
   background-color: #8685ef;
-  border-radius: 4px;
+  border-radius: 22px;
   width: 6em;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -63,7 +63,7 @@ button {
   position: absolute;
   min-width: 10em;
   background-color: #6260ec;
-  border-radius: 3px;
+  border-radius: 16px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -95,7 +95,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   background-color: #2d2b39;
-  border-radius: 7px;
+  border-radius: 30px;
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 10%;
